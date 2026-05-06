@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>task-1</title>
+
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+<!-- header -->
+<header>
+  <h1>Let's Cook</h1>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search recipes...">
+    <span>🔍</span>
+  </div>
+</header>
+<!-- aside -->
+<div class="layout">
+  <aside>
+    <h3>Categories</h3>
+    <ul>
+      <li>🍝 Pasta</li>
+      <li>🍔 Burgers</li>
+      <li>🥞 Breakfast</li>
+      <li>🥗 Healthy</li>
+    </ul>
+
+    <h3>Popular</h3>
+    <ul>
+      <li>🍽️ White Sauce Pasta</li>
+      <li>🍔 Cheese Burger</li>
+    </ul>
+  </aside>
+
+  <!-- food card -->
+  <main class="cards-container">
+    <div class="card">
+      <input type="checkbox" id="c1" class="clicked">
+      <div class="card-inside">
+        <div class="card-front">
+          <div class="image">
+            <img src="images/pisto.jpg">
+          </div>
+          <h3>Chicken Pasta</h3>
+          <label for="c1" class="btn">View Recipe</label>
+        </div>
+        <div class="card-back">
+          <p><strong>Ingredients:</strong></p>
+<p>Pasta, chicken breast, cooking cream, garlic, butter, parmesan, salt, pepper</p>
+<p><strong>Steps:</strong></p>
+<p>1. Boil pasta in salted water</p>
+<p>2. Cook chicken in butter + garlic</p>
+<p>3. Add cream + cheese</p>
+<p>4. Mix with pasta and serve</p>
+          <label for="c1" class="btn back">Back</label>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <input type="checkbox" id="c2" class="clicked">
+      <div class="card-inside">
+        <div class="card-front">
+          <div class="image">
+            <img src="images/burger.jpg">
+          </div>
+          <h3>Cheese Burger</h3>
+          <label for="c2" class="btn">View Recipe</label>
+        </div>
+        <div class="card-back">
+         <p><strong>Ingredients:</strong></p>
+<p>Beef patty, burger bun, cheddar cheese, lettuce, tomato, onion, sauce</p>
+<p><strong>Steps:</strong></p>
+<p>1. Season and grill beef patty</p>
+<p>2. Toast bun lightly</p>
+<p>3. Add cheese on hot patty</p>
+<p>4. Assemble burger with sauce & veggies</p>
+          <label for="c2" class="btn back">Back</label>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <input type="checkbox" id="c3" class="clicked">
+      <div class="card-inside">
+        <div class="card-front">
+          <div class="image">
+            <img src="images/bancakes.jpg">
+          </div>
+          <h3>Pancakes</h3>
+          <label for="c3" class="btn">View Recipe</label>
+        </div>
+        <div class="card-back">
+        <p><strong>Ingredients:</strong></p>
+<p>Flour, milk, eggs, sugar, baking powder, butter</p>
+<p><strong>Steps:</strong></p>
+<p>1. Mix all ingredients until smooth</p>
+<p>2. Heat pan with butter</p>
+<p>3. Pour batter and cook both sides</p>
+<p>4. Serve with honey or syrup</p>
+
+          <label for="c3" class="btn back">Back</label>
+        </div>
+
+      </div>
+    </div>
+    <div class="card">
+      <input type="checkbox" id="c4" class="clicked">
+      <div class="card-inside">
+        <div class="card-front">
+          <div class="image">
+            <img src="images/sweet and spicy.jpg">
+          </div>
+          <h3>Sweet and spicy</h3>
+          <label for="c4" class="btn">View Recipe</label>
+        </div>
+        <div class="card-back">
+     <p><strong>Ingredients:</strong></p>
+<p>Chicken, soy sauce, honey, chili sauce, garlic, rice</p>
+
+<p><strong>Steps:</strong></p>
+<p>1. Cook chicken cubes</p>
+<p>2. Mix soy sauce + honey + chili</p>
+<p>3. Glaze chicken with sauce</p>
+<p>4. Serve over rice</p>
+          <label for="c4" class="btn back">Back</label>
+        </div>
+
+      </div>
+    </div>
+    <div class="card">
+      <input type="checkbox" id="c5" class="clicked">
+      <div class="card-inside">
+        <div class="card-front">
+          <div class="image">
+            <img src="images/Ratatouille.jpg">
+          </div>
+          <h3>Ratatouille</h3>
+          <label for="c5" class="btn">View Recipe</label>
+        </div>
+        <div class="card-back">
+        <p><strong>Ingredients:</strong></p>
+<p>Zucchini, eggplant, tomato, bell pepper, garlic, olive oil, herbs</p>
+
+<p><strong>Steps:</strong></p>
+<p>1. Slice all vegetables</p>
+<p>2. Sauté garlic in olive oil</p>
+<p>3. Cook vegetables slowly</p>
+<p>4. Season and serve warm</p>
+          <label for="c5" class="btn back">Back</label>
+        </div>
+
+      </div>
+    </div>
+    <div class="card">
+      <input type="checkbox" id="c6" class="clicked">
+      <div class="card-inside">
+        <div class="card-front">
+          <div class="image">
+            <img src="images/CREPf.jpg">
+          </div>
+          <h3>Crepe</h3>
+          <label for="c6" class="btn">View Recipe</label>
+        </div>
+        <div class="card-back">
+       <p><strong>Ingredients:</strong></p>
+<p>Flour, milk, eggs, butter, sugar, pinch of salt</p>
+
+<p><strong>Steps:</strong></p>
+<p>1. Whisk all ingredients into smooth batter</p>
+<p>2. Heat non-stick pan</p>
+<p>3. Pour thin layer and cook both sides</p>
+<p>4. Fill with chocolate or fruits</p>
+          <label for="c6" class="btn back">Back</label>
+        </div>
+
+      </div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>
